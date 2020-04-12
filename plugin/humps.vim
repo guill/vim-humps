@@ -21,7 +21,7 @@ nmap [Q <Plug>HumpsMotionTailBackward
 xmap q <Plug>HumpsMotionHeadForward
 xmap Q <Plug>HumpsMotionTailForward
 
-omap q :<C-U>normal vQ<CR>
+omap <expr> q ':<C-U>normal v' . repeat('Q', v:count1) . '<CR>'
 "endfunction
 
 
