@@ -1,0 +1,4 @@
+up_front thisIsATest = Thing (with parens) a_maybe_caps ok
+yetAnother=testThing
+aThing
+
